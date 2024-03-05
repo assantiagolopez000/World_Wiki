@@ -13,7 +13,10 @@
         }
         .container {
             text-align: center;
-            margin-top: 20%;
+            margin-top: 20px;
+        }
+        .feedback {
+            margin-top: 50px;
         }
         h1 {
             color: #333;
@@ -22,6 +25,13 @@
             color: #666;
             margin-top: 20px;
         }
+        iframe {
+            width: 80%;
+            height: 500px;
+            border: none;
+            margin: 0 auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -29,6 +39,20 @@
         <h1>Welcome to Our AI Agent Project</h1>
         <p>This project features an AI agent programmed in Python that utilizes the llama-index RAG (Retrieval-Augmented Generation) model. The agent is equipped with various libraries and tools necessary for its operation, including data sources and other dependencies. Additionally, the project integrates the ChatGPT API key for enhanced functionality.</p>
         <p>Version 1 of the project is designed to interact specifically with data sources, allowing users to ask questions related to the provided data.</p>
+    </div>
+    <div class="feedback">
+        <h2>Leave Feedback</h2>
+        <p>We value your feedback! Please take a moment to fill out our feedback form:</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSvmTljJDdb7r4LDS0lZk3e6MKO6weF6xg2bCfXbOfyvW56A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+    <div class="feedback">
+        <h2>Anonymous Feedback</h2>
+        <p>Here are some anonymous feedback comments:</p>
+        <ul>
+            <li>Feedback 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Feedback 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Feedback 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        </ul>
     </div>
 </body>
 </html>
